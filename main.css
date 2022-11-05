@@ -3,7 +3,40 @@ h2,
 h3,
 h4,
 h5,
-h6 {font-family: 'NanumSquare', san-serif;}
+h6 {font-family: 'NanumSquare', san-serif; color: red ;
+   text-align: center;
+   word-spacing: 0.3em;
+   letter-spacing: -0.05em;}
 
 
-p {font-family: 'Nanum Gothic', sans-serif;}
+ p.subtitel {font-family: 'Nanum Gothic', sans-serif;}
+
+ .main-text {font-weight: 200; 
+             font-size: 20px;
+             text-align: justify;
+            letter-spacing: 0.03em;
+            word-spacing: 0em;
+            line-height: 1.3em;}
+
+.div-pad { padding: 15px 30px 40px 50px;}
+.main-wrapper { width:500px;
+               margin: 0 auto;}
+
+
+.box-a {width: 100px;
+        height: 100px;
+        background-color: red;
+        display: inline-block;
+}
+
+.box-b {width: 100px;
+        height: 100px;
+        background-color: green;
+        display: inline-block;
+}
+
+.box-c {width: 100px;
+        height: 100px;
+        background-color: blue;
+        display: inline-block;
+}
